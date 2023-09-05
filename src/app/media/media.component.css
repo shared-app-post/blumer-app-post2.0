@@ -1,0 +1,125 @@
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: #F2F2F2;
+        overflow: hidden;
+    
+    }
+    
+    .main {
+        margin-top: 5%;
+        padding: 10px;
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 7%;
+        overflow: hidden;
+    }
+    
+    .container {
+        display: inline-block;
+    }
+    
+    .image, .username {
+        display: inline-block;
+        vertical-align: middle; 
+        margin-bottom: 3%;
+    }
+    
+    .name {
+        color: #1EBEB5;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    .comentary{
+        color: #535353;
+        text-align: left;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .seeMore{
+        color: #1EBEB5;
+        margin-left: 5%;
+    }
+    .card{
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 5%;
+    }
+    
+    .icons{
+        margin-left: 20%;
+        margin-top: 5%;
+        color: #B7B7B7;
+        margin-bottom: 15%;
+    }
+    .like {
+        margin-right: 10%;
+    }
+    .reaction{
+        margin-right: 10%;
+    }
+    .shared{
+        margin-right: 10%;
+    }
+    .comentary{
+        color: #B7B7B7;
+    }
+    .media{
+       width: 307;
+       height: 544;
+    }
+}
+@media screen and (min-width: 1024px){
+    body{
+        padding-left: 38%;
+        padding-top: 3%;
+        background-color: #F2F2F2;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    .video-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    .icons {
+        color: #B7B7B7;
+        padding-top: 48%;
+        padding-left: 3%;
+        padding-right: 100%;
+        display: flex;
+        flex-direction: column; /* Cambiamos la dirección a columna */
+        align-items: center; /* Opcional: centrar los íconos horizontalmente */
+        gap: 10px;
+        font-size: 13px;
+    }
+    .seeMore{
+        color: #1EBEB5;
+        margin-left: 20px;
+    }
+    .name {
+        color: #1EBEB5;
+    }
+        .comentary  {
+            padding-bottom: 1%;
+        }
+        .media{
+            width: 400px; /* Cambia el ancho según tus necesidades */
+            height: 300px;
+        }
+        .container {
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        
+        .image,
+        .username {
+            display: inline-block;
+            vertical-align: middle; /* Alinea verticalmente los elementos */
+            margin-right: 10px; /* Opcional: agregar espacio entre la imagen y el texto */
+        }
+        
+}

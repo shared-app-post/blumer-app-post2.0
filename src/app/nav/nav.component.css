@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+    .buttonApple {
+      background-color: #077B40;
+    }
+    
+    .hr {
+      border-width: 5px;
+      border-color: #66DB23;
+    }
+    
+    section {
+      background-color: #FFFFFF;
+      padding-top: 10px;
+      padding-bottom: 20px; /* Añadir espacio en la parte inferior */
+    }
+    
+    .buttons {
+      color: #FFFFFF;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .buttonApple {
+        background-color: #077B40;
+      }
+      
+      .hr {
+        border-width: 5px;
+        border-color: #66DB23;
+      }
+      
+      section {
+        background-color: #FFFFFF;
+        padding-top: 10px;
+        padding-bottom: 20px; /* Añadir espacio en la parte inferior */
+      }
+      
+      .buttons {
+        color: #FFFFFF;
+        margin-left: 70%;
+      }  
+
+      .logo{
+        margin-top: 1%;
+      }
+    }
+
+  
+ 
+  
+
+  

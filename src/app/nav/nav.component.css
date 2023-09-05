@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-    .buttonApple {
-      background-color: #077B40;
-    }
-    
     .hr {
       border-width: 5px;
       border-color: #66DB23;
@@ -11,13 +7,45 @@
     section {
       background-color: #FFFFFF;
       padding-top: 10px;
-      padding-bottom: 20px; /* Añadir espacio en la parte inferior */
+      padding-bottom: 20px;
     }
     
     .buttons {
       color: #FFFFFF;
     }
+    .downloandHere {
+      background-color: #36C854;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-right: 4%;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 15px;
+      position: relative; 
+      top: 30%;
   }
+  
+  .downloandHere::before {
+      content: '';
+      border-left: 1px solid white;
+      margin-right: 10px; 
+      height: 24px;
+  }
+    .vertical-line {
+      border-left: 2px solid #FFFFFF; 
+      height: 20px; 
+      margin: 0 10px; 
+  }
+  .appleLogo{
+    margin-right: 5px;
+  }
+  .buttonS{
+    display: flex; align-items: center;
+  }
+  }
+
   @media screen and (min-width: 1024px) {
     .buttonApple {
         background-color: #077B40;
@@ -26,12 +54,12 @@
       .hr {
         border-width: 5px;
         border-color: #66DB23;
+        margin-bottom: 10px;
       }
       
       section {
         background-color: #FFFFFF;
         padding-top: 10px;
-        padding-bottom: 20px; /* Añadir espacio en la parte inferior */
       }
       
       .buttons {
@@ -42,6 +70,35 @@
       .logo{
         margin-top: 1%;
       }
+      
+      .buttonS{
+        display: flex; align-items: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: #36C854;
+        border-radius: 8px;
+        color: white;
+        margin-left: 65%;
+        
+      }
+      .downloandHere{
+      }
+      .downloandHere::before {
+        content: '';
+        border-left: 1px solid white;
+        margin-right: 10px; 
+        height: 24px;
+    }
+      .vertical-line {
+        border-left: 2px solid #FFFFFF; 
+        height: 20px; 
+        margin: 0 10px; 
+    }
+    .appleLogo{
+      margin-right: 5px;
+    }
     }
 
   
